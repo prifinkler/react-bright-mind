@@ -1,0 +1,21 @@
+:root {
+  --cucumber: rgb(205, 240, 147);
+  --pastel-green: #97da81;
+  --blas-blue: rgb(51, 70, 141);
+  --acapulco-blue: #77a8d6;
+  --clear-sky: #9cd8fb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Calibri, sans-serif;
+  background: var(--blas-blue)
+}
