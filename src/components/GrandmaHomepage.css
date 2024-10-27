@@ -99,7 +99,7 @@
   font-size: 32px;
 }
 
-.action-button {
+.action-button-grandma {
   padding: 16px 32px;
   border-radius: 24px;
   border: none;
@@ -111,16 +111,16 @@
   color: white;
 }
 
-.action-button.transparent {
+.action-button-grandma.transparent {
   background: rgba(255, 255, 255, 0.2);
 }
 
-.action-button.highlight {
+.action-button-grandma.highlight {
   background: var(--pastel-green);
   color: var(--blas-blue);
 }
 
-.action-button.finish {
+.action-button-grandma.finish {
   background: var(--blas-blue);
   color: var(--cucumber);
   margin-top: 1em;

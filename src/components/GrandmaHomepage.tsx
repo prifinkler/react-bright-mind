@@ -83,14 +83,14 @@ const GrandmaHomepage = () => {
               <div className="finished-options">
                 <button
                   onClick={handleReplayVideo}
-                  className="action-button transparent"
+                  className="action-button-grandma transparent"
                 >
                   <FontAwesomeIcon icon={faRotateRight} className="icon-margin" />
                   Watch Again
                 </button>
                 <button
                   onClick={() => setIsRecording(true)}
-                  className="action-button highlight"
+                  className="action-button-grandma highlight"
                 >
                   <FontAwesomeIcon icon={faMicrophone} className="icon-margin" />
                   Record Your Answer
