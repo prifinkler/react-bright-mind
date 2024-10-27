@@ -32,7 +32,7 @@
 .activity-header {
     align-items: center;
     display: flex;
-    margin: 25px 0 45px;
+    margin: 20px 0;
     gap: 20px;
 }
 
