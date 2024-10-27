@@ -93,3 +93,29 @@
     flex-shrink: 0;
     font-size: 24px;
 }
+
+.game-area {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.memory-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.memory-card {
+    aspect-ratio: 1;
+    background: var(--acapulco-blue);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.memory-card:hover {
+    transform: scale(1.02);
+    background-color: var(--clear-sky);
+}
