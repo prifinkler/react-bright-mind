@@ -10,30 +10,35 @@ import './FeedbackPage.css';
 
 function FeedbackPage() {
   return (
-    <div className="winer-wrapper">
+    <div className="winner-wrapper">
       <div className="celebration">
         <img className="trophy" src="/images/win.gif" />
         <h1>Well Done!</h1>
       </div>
-      <h2 style={{ display: "flex" }}>Do you want to Continue?</h2>
+
+      <div className="new-flower">
+        <a>A new flower has grown <br/> in your garden!</a>
+      </div>
+
+      <h2>What would you like to do next?</h2>
       <div className="action-button">
         <Link
           to="/garden"
           style={{ background: "var(--cucumber)", color: "var(--mid-blue)" }}
         >
           <FontAwesomeIcon icon={faLeaf} className="star-icon" />
-          A new flower in the garden!
+          View Garden
         </Link>
         <Link
           to="/activity"
-          style={{ background: "var(--cucumber)", color: "var(--mid-blue)" }}
+          style={{ background: "var(--clear-sky)", color: "var(--mid-blue)" }}
         >
           <FontAwesomeIcon icon={faPuzzlePiece} className="star-icon" />
-          Try another Puzzle
+          Another Puzzle
         </Link>
         <Link
           to="/"
-          style={{ background: "var(--acapulco-blue)", color: "white" }}
+          style={{ background: "#5f6ca1", color: "white" }}
         >
           <FontAwesomeIcon icon={faBed} className="star-icon" />
           Have a Rest
