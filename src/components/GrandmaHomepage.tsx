@@ -116,7 +116,7 @@ const GrandmaHomepage = () => {
                 <p>Recording your story...</p>
                 <button
                   onClick={() => navigate('/activity')}
-                  className="action-button finish"
+                  className="action-button-grandma finish"
                 >
                   <FontAwesomeIcon icon={faCheck} className="icon-margin" />
                   Finish Story
