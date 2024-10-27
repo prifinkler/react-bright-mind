@@ -17,4 +17,5 @@ body {
   padding: 0;
   overflow: hidden;
   font-family: Calibri, sans-serif;
+  background: var(--blas-blue)
 }

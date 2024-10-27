@@ -1,0 +1,65 @@
+.winer-wrapper {
+  padding: 40px 20px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+}
+
+.celebration {
+  text-align: center;
+  margin-top: 40px;
+  color: var(--cucumber);
+  margin-bottom: 4rem;
+}
+
+.trophy {
+  width: 15rem;
+  height: 15rem;
+  margin-bottom: 1rem;
+  border-radius: 30px;
+  /* font-size: 80px;
+  color: var(--cucumber);
+  margin-bottom: 24px; */
+  /* animation: float 2s ease-in-out infinite; */
+}
+
+.action-button {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 250px;
+}
+
+.action-button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 24px;
+  padding: 24px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  gap: 1rem;
+  width: 100%;
+}
+
+.action-button button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.action-button img {
+  width: 60px;
+  height: 60px;
+}
+
+.button-text {
+}

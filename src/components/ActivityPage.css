@@ -1,0 +1,95 @@
+:root {
+
+    --white-text: #ffffff;
+    --green-text: #cdde93;
+
+    --default-activity-bg: #33468d;
+    --light-semi-bg: rgba(255, 255, 255, 0.52);
+    --lighter-semi-bg: rgba(255, 255, 255, 0.24);
+
+    --activity-back-button-color: #151d3d;
+
+    /*--activity-bg: #33468d;*/
+    /*--activity-text: #cdde93;*/
+    /*--activity-light-bg: #ffffff;*/
+    /*--activity-darker-text: #233165;*/
+    /*--instruction-box-text: #1e2c60;*/
+    /*--instruction-box-icon: #40287e;*/
+
+    /*--progress-header-title-color: #ffffff;*/
+}
+
+.activity-wrapper {
+    background-color: var(--default-activity-bg);
+    color: var(--white-text);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0 1rem;
+    width: 100vw;
+}
+
+.activity-header {
+    align-items: center;
+    display: flex;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.activity-back-button {
+    align-items: center;
+    background: var(--light-semi-bg);
+    border: none;
+    border-radius: 50%;
+    color: var(--activity-back-button-color);
+    cursor: pointer;
+    display: flex;
+    font-size: 20px;
+    height: 48px;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    width: 48px;
+}
+
+.progress-header-title {
+    color: var(--green-text);
+    font-size: 18px;
+    font-weight: 500;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.activity-title {
+    color: var(--green-text);
+    display: flex;
+    font-size: 1.2rem;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    margin: 16px 0 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.activity-title > p {
+    color: var(--white-text);
+    font-size: 1.5rem;
+}
+
+.activity-instruction-box {
+    align-items: center;
+    background: var(--lighter-semi-bg);
+    border-radius: 16px;
+    color: var(--white-text);
+    display: flex;
+    font-size: 1.3rem;
+    gap: 16px;
+    padding: 20px;
+    margin: 45px 5px;
+}
+
+.instruction-icon {
+    color: var(--green-text);
+    flex-shrink: 0;
+    font-size: 24px;
+}
