@@ -9,7 +9,7 @@ function FeedbackPage() {
       </div>
       <h2 style={{ display: "flex" }}>Do you want to Continue?</h2>
       <div className="action-button">
-        <Link to="/" style={{background: "var(--cucumber)", color: "var(--blas-blue)"}}>
+        <Link to="/activity" style={{background: "var(--cucumber)", color: "var(--blas-blue)"}}>
             <img src="/images/puzzle.png" />
             Try Another Puzzle
         </Link>
