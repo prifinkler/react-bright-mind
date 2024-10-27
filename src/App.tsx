@@ -5,8 +5,6 @@ import FeedbackPage from "./components/FeedbackPage";
 import GardenProgress from './components/GardenProgress';
 
 import './App.css';
-import "./styles/feedback.css";
-
 
 function App() {
   return (
