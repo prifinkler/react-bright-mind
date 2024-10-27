@@ -1,4 +1,6 @@
 import { useState, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faPlay,
@@ -10,6 +12,7 @@ import {
 import './GrandmaHomepage.css';
 
 const GrandmaHomepage = () => {
+  const navigate = useNavigate();
   const [isPlaying, setIsPlaying] = useState(false);
   const [isVideoFinished, setIsVideoFinished] = useState(false);
   const [isRecording, setIsRecording] = useState(false);
@@ -112,7 +115,7 @@ const GrandmaHomepage = () => {
                 <div className="pulse-dot" />
                 <p>Recording your story...</p>
                 <button
-                  onClick={() => window.location.href = '/activity'}
+                  onClick={() => navigate('/activity')}
                   className="action-button finish"
                 >
                   <FontAwesomeIcon icon={faCheck} className="icon-margin" />
