@@ -33,6 +33,20 @@ const ActivityPage = () => {
                     </p>
                 </div>
 
+                <div className="game-area">
+                    <div className="memory-grid">
+                        {Array(4).fill(null).map((_, index) => (
+                            <div
+                                key={index}
+                                className="memory-card"
+                                onClick={() => !isComplete && handleComplete()}
+                            >
+                            </div>
+                        ))}
+                    </div>
+
+
+                </div>
 
             </div>
         </div>
