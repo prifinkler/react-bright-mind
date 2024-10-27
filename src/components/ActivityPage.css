@@ -54,7 +54,7 @@
 .progress-header-title {
     color: var(--green-text);
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     flex-grow: 1;
     text-align: center;
 }
@@ -73,7 +73,11 @@
 
 .activity-title > p {
     color: var(--white-text);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.activity-title h2 {
+  font-size: 2rem;
 }
 
 .activity-instruction-box {
