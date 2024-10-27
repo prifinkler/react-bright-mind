@@ -5,6 +5,8 @@ import {
   faLeaf,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import './FeedbackPage.css';
+
 
 function FeedbackPage() {
   return (
@@ -16,15 +18,15 @@ function FeedbackPage() {
       <h2 style={{ display: "flex" }}>Do you want to Continue?</h2>
       <div className="action-button">
         <Link
-          to="/"
-          style={{ background: "var(--cucumber)", color: "var(--blas-blue)" }}
+          to="/garden"
+          style={{ background: "var(--cucumber)", color: "var(--mid-blue)" }}
         >
           <FontAwesomeIcon icon={faLeaf} className="star-icon" />
           A new flower in the garden!
         </Link>
         <Link
-          to="/"
-          style={{ background: "var(--cucumber)", color: "var(--blas-blue)" }}
+          to="/activity"
+          style={{ background: "var(--cucumber)", color: "var(--mid-blue)" }}
         >
           <FontAwesomeIcon icon={faPuzzlePiece} className="star-icon" />
           Try another Puzzle
