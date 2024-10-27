@@ -19,10 +19,6 @@
   height: 15rem;
   margin-bottom: 1rem;
   border-radius: 30px;
-  /* font-size: 80px;
-  color: var(--cucumber);
-  margin-bottom: 24px; */
-  /* animation: float 2s ease-in-out infinite; */
 }
 
 .action-button {
@@ -47,8 +43,8 @@
   font-weight: bold;
   font-size: 1.8rem;
   line-height: 1.4;
-  gap: 1rem;
-  width: 100%;
+  gap: 2rem;
+  width: 290px;
 }
 
 .action-button button {
@@ -61,5 +57,3 @@
   height: 60px;
 }
 
-.button-text {
-}
